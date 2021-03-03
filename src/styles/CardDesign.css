@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+
+body {
+	background-image: linear-gradient(45deg, #344D45, #343445);
+	font-family: 'Muli', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	min-height: 100vh;
+	margin: 0;
+}
+
+
+
+.trip {
+	background-color: rgba(20, 40, 40, .8);
+	border-radius: 10px;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+	display: flex;
+	max-width: 100%;
+	margin: 20px;
+	overflow: hidden;
+	width: 700px;
+}
+
+.trip h4 {
+	opacity: 0.6;
+	margin: 0;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: white;
+}
+
+.trip h2 {
+	letter-spacing: 1px;
+	margin: 10px 0;
+	color: white;
+}
+
+.trip-preview {
+	background-color: rgba(20, 20, 20, .8);
+	color: #fff;
+	padding: 30px;
+	max-width: 250px;
+}
+
+.trip-preview p {
+	color: #fff;
+	display: inline-block;
+	font-size: 20px;
+	opacity: 0.6;
+	margin-top: 30px;
+	text-decoration: none;
+}
+
+.trip-info {
+	padding: 30px;
+	position: relative;
+	width: 100%;
+}
+
+.trip-info p {
+	display: inline-block;
+	font-size: 20px;
+	opacity: 0.6;
+	margin-top: 30px;
+	text-decoration: none;
+	color: white;
+	
+}
+
+
+.btn {
+	border: 1px solid rgba(10, 180, 180, 1);
+	background: rgba(20, 20, 20, .6);
+	font-size: 18px;
+	color: white;
+	margin-top: 20px;
+	padding: 10px 50px;
+	cursor: pointer;
+	transition: .4s;
+	position: absolute;
+	bottom: 30px;
+	right: 30px;
+	letter-spacing: 1px;
+
+}
+
+
+
