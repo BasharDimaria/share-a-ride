@@ -50,26 +50,22 @@ margin: 1rem 5rem;
 `;
 
 const Button=styled.button`
-margin: 1rem 5rem;
-font-size: 18px;
-width:250px;
-height:40px;
-color: white;
-background: rgba(20, 20, 20, .6);
-border-radius: 30px;
-appearance: none;
-border: 1px solid rgba(10, 180, 180, 1);
-outline: none;
-cursor: pointer;
-padding: 0rem 3rem;
-font-family: Kufam, sans-serif;
-font-weight: 400;
-transition: all .4s ease-in-out;
-&:hover {
-    background-color: #5745a3;
-    color:#E0EBE7;
 
-}
+border: 1px solid rgba(10, 180, 180, 1);
+background: rgba(20, 20, 20, .6);
+font-size: 18px;
+color: white;
+margin:10px auto;
+display:flex;
+padding: 10px 50px;
+cursor: pointer;
+transition: .4s;
+
+:hover {
+    background: rgba(20, 20, 20, .8);
+    padding: 10px 80px;
+  }
+  
 
 
 

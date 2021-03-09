@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../styles/FormStyle.css';
+import Logo from '../components/Logo'
 
 const SearchForm = ()=>{
     const [from, setFrom] = useState('');
@@ -44,9 +45,9 @@ const SearchForm = ()=>{
           
         <div class="SearchFormSection">
         <div class="info">
-          <h2>Dela Din Resa </h2>
+          <Logo></Logo>
           <i class="icon ion-ios-ionic-outline" aria-hidden="true"></i>
-          <p>The Future Is Here</p>
+          <p>Dela-Din-Resa</p>
         </div>
         <form  class="SearchForm" onSubmit={onSubmit}>
           <h2>Search for a trip </h2>
@@ -68,7 +69,7 @@ const SearchForm = ()=>{
               <input type="number" className="inputFields"  name="number" placeholder="Seats" value={seats} onChange={(e)=>setSeats(e.target.value)} min="1" max="4" required/>
             </li>
             <li id="center-btn">
-              <input type="submit" id="join-btn" name="join"  value="Search"/>
+              <input type="submit" id="join-btn" name="join" className="SearchButton"  value="Search"/>
             </li>
           </ul>
         </form>

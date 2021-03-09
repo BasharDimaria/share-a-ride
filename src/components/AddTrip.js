@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../styles/FormStyle.css';
+import Logo from '../components/Logo'
 
 
 const AddTrip = () => {
@@ -29,9 +30,9 @@ const AddTrip = () => {
     return (
         <div class="Addformsection">
         <div class="info">
-          <h2>Dela Din Resa </h2>
+         <Logo></Logo>
           <i class="icon ion-ios-ionic-outline" aria-hidden="true"></i>
-          <p>The Future Is Here</p>
+          <p>Dela-Din-Resa</p>
         </div>
         <form  class="AddForm" onSubmit={onSubmit}>
           <h2>Add a trip </h2>

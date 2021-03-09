@@ -1,0 +1,49 @@
+.brand {
+  
+    width: 200px;
+    height: 200px;
+    margin-top: 100px;
+   
+    
+  }
+ 
+  
+  .logo{
+    animation: 4s linear infinite;
+    animation-name: rotate-0;
+    transform-origin: 50% 50%;
+    transform: rotate(0deg);
+    
+  }
+  
+  
+  svg path{
+    position:absolute;
+    fill:none;
+    stroke-width:2;
+    /*mix-blend-mode: multiply;*/
+    transform-origin: 50% 50%;
+    transform: rotate(0deg) ;
+    animation: 4s linear infinite;
+  }
+ 
+  .logo svg path:nth-child(2) {
+    opacity: 0.5;
+    animation-name: rotate-2;
+    
+  }
+ 
+  
+
+  @keyframes rotate-0 {
+    from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+  } 
+  
+
+  
+  @keyframes rotate-2 {
+    from { transform: rotate(0deg); }
+      to { transform: rotate(-360deg); }
+  }
+  

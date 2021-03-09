@@ -20,9 +20,8 @@ const Trip = ({
 },
 })=>{
 
-    return(
-        <div>
-            <div class="trip-container">
+    return(<div>
+<div class="trip-container">
 	<div class="trip">
 		<div class="trip-preview">
 			<h6>Trip</h6>

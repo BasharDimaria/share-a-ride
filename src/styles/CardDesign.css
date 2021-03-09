@@ -4,7 +4,6 @@
 	box-sizing: border-box;
 }
 
-
 body {
 	background-image: linear-gradient(45deg, #344D45, #343445);
 	font-family: 'Muli', sans-serif;
@@ -15,8 +14,6 @@ body {
 	min-height: 100vh;
 	margin: 0;
 }
-
-
 
 .trip {
 	background-color: rgba(20, 40, 40, .8);
@@ -72,9 +69,7 @@ body {
 	margin-top: 30px;
 	text-decoration: none;
 	color: white;
-	
 }
-
 
 .btn {
 	border: 1px solid rgba(10, 180, 180, 1);
@@ -89,8 +84,4 @@ body {
 	bottom: 30px;
 	right: 30px;
 	letter-spacing: 1px;
-
 }
-
-
-
